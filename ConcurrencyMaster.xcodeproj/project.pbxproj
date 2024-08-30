@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2741ED72C5332A300B27C79 /* SerialQueue+SyncTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741ED62C5332A300B27C79 /* SerialQueue+SyncTasks.swift */; };
+		A2741ED92C5332AF00B27C79 /* SerialQueue+AsyncTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741ED82C5332AF00B27C79 /* SerialQueue+AsyncTasks.swift */; };
+		A2741EDB2C5332BA00B27C79 /* ConcurrentQueue+SyncTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EDA2C5332BA00B27C79 /* ConcurrentQueue+SyncTasks.swift */; };
+		A2741EDD2C5332C500B27C79 /* ConcurrentQueue+AsyncTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EDC2C5332C500B27C79 /* ConcurrentQueue+AsyncTasks.swift */; };
+		A2741EE52C54804700B27C79 /* QoS description.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EE42C54804700B27C79 /* QoS description.swift */; };
+		A2741EF52C57D4D200B27C79 /* Example with 2 serial and 3 concurrent queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EF42C57D4D200B27C79 /* Example with 2 serial and 3 concurrent queues.swift */; };
+		A2741EF92C587D4D00B27C79 /* Assert for Main:nonMain Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EF82C587D4D00B27C79 /* Assert for Main:nonMain Thread.swift */; };
+		A2741EFC2C590F6800B27C79 /* LiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741EFB2C590F6800B27C79 /* LiveLock.swift */; };
+		A2741F0B2C59C4AD00B27C79 /* MeasureExecutionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741F0A2C59C4AD00B27C79 /* MeasureExecutionTime.swift */; };
+		A2741F0D2C59C69400B27C79 /* DeadLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2741F0C2C59C69400B27C79 /* DeadLock.swift */; };
+		A2766CB92C51F2A10030B6FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2766CB82C51F2A10030B6FC /* main.swift */; };
+		A2BEF8E22C63136800FA3165 /* RaceConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF8E12C63136800FA3165 /* RaceConditions.swift */; };
+		A2BEF8E42C639AE100FA3165 /* Starvation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF8E32C639AE100FA3165 /* Starvation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2766CB32C51F2A10030B6FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2741ED62C5332A300B27C79 /* SerialQueue+SyncTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SerialQueue+SyncTasks.swift"; sourceTree = "<group>"; };
+		A2741ED82C5332AF00B27C79 /* SerialQueue+AsyncTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SerialQueue+AsyncTasks.swift"; sourceTree = "<group>"; };
+		A2741EDA2C5332BA00B27C79 /* ConcurrentQueue+SyncTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConcurrentQueue+SyncTasks.swift"; sourceTree = "<group>"; };
+		A2741EDC2C5332C500B27C79 /* ConcurrentQueue+AsyncTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConcurrentQueue+AsyncTasks.swift"; sourceTree = "<group>"; };
+		A2741EE42C54804700B27C79 /* QoS description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QoS description.swift"; sourceTree = "<group>"; };
+		A2741EF42C57D4D200B27C79 /* Example with 2 serial and 3 concurrent queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example with 2 serial and 3 concurrent queues.swift"; sourceTree = "<group>"; };
+		A2741EF82C587D4D00B27C79 /* Assert for Main:nonMain Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assert for Main:nonMain Thread.swift"; sourceTree = "<group>"; };
+		A2741EFB2C590F6800B27C79 /* LiveLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLock.swift; sourceTree = "<group>"; };
+		A2741F0A2C59C4AD00B27C79 /* MeasureExecutionTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureExecutionTime.swift; sourceTree = "<group>"; };
+		A2741F0C2C59C69400B27C79 /* DeadLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLock.swift; sourceTree = "<group>"; };
+		A2766CB52C51F2A10030B6FC /* ConcurrencyMaster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcurrencyMaster; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2766CB82C51F2A10030B6FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2BEF8E12C63136800FA3165 /* RaceConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceConditions.swift; sourceTree = "<group>"; };
+		A2BEF8E32C639AE100FA3165 /* Starvation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starvation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2766CB22C51F2A10030B6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2741F072C59C11A00B27C79 /* Queues + Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				A2741ED62C5332A300B27C79 /* SerialQueue+SyncTasks.swift */,
+				A2741ED82C5332AF00B27C79 /* SerialQueue+AsyncTasks.swift */,
+				A2741EDA2C5332BA00B27C79 /* ConcurrentQueue+SyncTasks.swift */,
+				A2741EDC2C5332C500B27C79 /* ConcurrentQueue+AsyncTasks.swift */,
+			);
+			path = "Queues + Tasks";
+			sourceTree = "<group>";
+		};
+		A2741F082C59C46900B27C79 /* Concurrency Problems */ = {
+			isa = PBXGroup;
+			children = (
+				A2741EFB2C590F6800B27C79 /* LiveLock.swift */,
+				A2741F0C2C59C69400B27C79 /* DeadLock.swift */,
+				A2BEF8E12C63136800FA3165 /* RaceConditions.swift */,
+				A2BEF8E32C639AE100FA3165 /* Starvation.swift */,
+			);
+			path = "Concurrency Problems";
+			sourceTree = "<group>";
+		};
+		A2741F092C59C47900B27C79 /* Concurrency Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A2741EF82C587D4D00B27C79 /* Assert for Main:nonMain Thread.swift */,
+				A2741EE42C54804700B27C79 /* QoS description.swift */,
+				A2741F0A2C59C4AD00B27C79 /* MeasureExecutionTime.swift */,
+			);
+			path = "Concurrency Tools";
+			sourceTree = "<group>";
+		};
+		A2766CAC2C51F2A10030B6FC = {
+			isa = PBXGroup;
+			children = (
+				A2766CB72C51F2A10030B6FC /* ConcurrencyMaster */,
+				A2766CB62C51F2A10030B6FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2766CB62C51F2A10030B6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2766CB52C51F2A10030B6FC /* ConcurrencyMaster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2766CB72C51F2A10030B6FC /* ConcurrencyMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A2766CB82C51F2A10030B6FC /* main.swift */,
+				A2741F092C59C47900B27C79 /* Concurrency Tools */,
+				A2741F082C59C46900B27C79 /* Concurrency Problems */,
+				A2741F072C59C11A00B27C79 /* Queues + Tasks */,
+				A2741EF42C57D4D200B27C79 /* Example with 2 serial and 3 concurrent queues.swift */,
+			);
+			path = ConcurrencyMaster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2766CB42C51F2A10030B6FC /* ConcurrencyMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2766CBC2C51F2A10030B6FC /* Build configuration list for PBXNativeTarget "ConcurrencyMaster" */;
+			buildPhases = (
+				A2766CB12C51F2A10030B6FC /* Sources */,
+				A2766CB22C51F2A10030B6FC /* Frameworks */,
+				A2766CB32C51F2A10030B6FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcurrencyMaster;
+			productName = ConcurrencyMaster;
+			productReference = A2766CB52C51F2A10030B6FC /* ConcurrencyMaster */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2766CAD2C51F2A10030B6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A2766CB42C51F2A10030B6FC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A2766CB02C51F2A10030B6FC /* Build configuration list for PBXProject "ConcurrencyMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2766CAC2C51F2A10030B6FC;
+			productRefGroup = A2766CB62C51F2A10030B6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2766CB42C51F2A10030B6FC /* ConcurrencyMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2766CB12C51F2A10030B6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BEF8E22C63136800FA3165 /* RaceConditions.swift in Sources */,
+				A2741EDB2C5332BA00B27C79 /* ConcurrentQueue+SyncTasks.swift in Sources */,
+				A2BEF8E42C639AE100FA3165 /* Starvation.swift in Sources */,
+				A2741F0D2C59C69400B27C79 /* DeadLock.swift in Sources */,
+				A2766CB92C51F2A10030B6FC /* main.swift in Sources */,
+				A2741ED92C5332AF00B27C79 /* SerialQueue+AsyncTasks.swift in Sources */,
+				A2741EF52C57D4D200B27C79 /* Example with 2 serial and 3 concurrent queues.swift in Sources */,
+				A2741EE52C54804700B27C79 /* QoS description.swift in Sources */,
+				A2741EDD2C5332C500B27C79 /* ConcurrentQueue+AsyncTasks.swift in Sources */,
+				A2741ED72C5332A300B27C79 /* SerialQueue+SyncTasks.swift in Sources */,
+				A2741EFC2C590F6800B27C79 /* LiveLock.swift in Sources */,
+				A2741F0B2C59C4AD00B27C79 /* MeasureExecutionTime.swift in Sources */,
+				A2741EF92C587D4D00B27C79 /* Assert for Main:nonMain Thread.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2766CBA2C51F2A10030B6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2766CBB2C51F2A10030B6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A2766CBD2C51F2A10030B6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2766CBE2C51F2A10030B6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2766CB02C51F2A10030B6FC /* Build configuration list for PBXProject "ConcurrencyMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2766CBA2C51F2A10030B6FC /* Debug */,
+				A2766CBB2C51F2A10030B6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2766CBC2C51F2A10030B6FC /* Build configuration list for PBXNativeTarget "ConcurrencyMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2766CBD2C51F2A10030B6FC /* Debug */,
+				A2766CBE2C51F2A10030B6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2766CAD2C51F2A10030B6FC /* Project object */;
+}
